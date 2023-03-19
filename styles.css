@@ -1,0 +1,59 @@
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #fafafa;
+    }
+    header {
+      background-color: #4c516d;
+      padding: 20px;
+      text-align: center;
+      color: white;
+    }
+    nav {
+      display: flex;
+      justify-content: space-around;
+      background-color: #f8c291;
+      padding: 10px;
+    }
+    nav a {
+      color: #4c516d;
+      text-decoration: none;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+.container {
+  width: 50%; 
+  margin: 40px auto;
+  text-align: center;
+}
+
+.cat-image {
+      width: 100%;
+      max-width: 500px;
+      margin: 0 auto;
+}
+    
+.about-photo {
+  display: block;
+  max-width: 100%; /* Add this line */
+  height: auto; /* Add this line */
+  margin: 0 auto;
+  border-radius: 50%;
+}
+
+    .service {
+      padding: 20px 0;
+    }
+    
+    
+    .testimonial {
+  font-style: oblique 10deg;
+
+      padding: 20px 0;
+      border-bottom: 1px solid #ccc;
+    }
+    .testimonial:last-child {
+      border-bottom: none;
+    }
