@@ -172,10 +172,10 @@ footer {
     font-size: 0.9rem;
   }
 
-  .language-switch {
-    font-size: 0.8rem;
-    margin-bottom: 0.25rem;
-  }
+    .lang-link {
+        padding: 4px 8px;
+        font-size: 0.9rem;
+    }
 }
 
 /* Add styles for diplomas section */
@@ -188,24 +188,25 @@ footer {
 }
 
 
-
-.language-switch {
-  display: flex;
-  justify-content: flex-end;
-  margin-bottom: 0.5rem;
-  background-color: rgba(0, 0, 0, 0.7)
-}
-
 .lang-link {
-  margin-left: 0.5rem;
-  text-decoration: none;
-  color: #ffffff;
+    text-decoration: none;
+    color: #FFF;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    padding: 5px 10px;
+    transition: all 0.3s ease;
+    background-color: rgba(0, 0, 0, 0.7);
 }
-
 
 .lang-link:hover {
     background-color: #4b6584;
-    border-color: #999;
+    border-color: #ffffff;
+    transform: translateY(-3px);
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
+}
+
+.nav-first {
+    margin-right: auto;
 }
 
 .diploma-item {
