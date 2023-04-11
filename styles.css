@@ -168,6 +168,14 @@ footer {
     header h1 {
         font-size: 2rem;
     }
+      nav {
+    font-size: 0.9rem;
+  }
+
+  .language-switch {
+    font-size: 0.8rem;
+    margin-bottom: 0.25rem;
+  }
 }
 
 /* Add styles for diplomas section */
@@ -182,18 +190,17 @@ footer {
 
 
 .language-switch {
-    display: inline-flex;
-    gap: 10px;
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 0.5rem;
 }
 
 .lang-link {
-    text-decoration: none;
-    color: #FFF;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    padding: 5px 10px;
-    transition: all 0.3s ease;
+  margin-left: 0.5rem;
+  text-decoration: none;
+  color: inherit;
 }
+
 
 .lang-link:hover {
     background-color: #f5f5f5;
