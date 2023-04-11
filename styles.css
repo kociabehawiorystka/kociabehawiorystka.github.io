@@ -33,11 +33,20 @@ nav {
 nav a {
     color: #ffffff;
     text-decoration: none;
-    padding: 10px 20px;
+    padding: 10px 12px;
     display: inline-block;
     transition: all 0.3s ease;
 }
 
+.lang-link {
+    text-decoration: none;
+    color: #FFF;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    padding: 5px 8px;
+    transition: all 0.3s ease;
+    background-color: rgba(0, 0, 0, 0.7);
+}
 nav a:hover {
     background-color: #4b6584;
     transform: translateY(-3px);
@@ -168,14 +177,15 @@ footer {
     header h1 {
         font-size: 2rem;
     }
-      nav {
-    font-size: 0.9rem;
-  }
+nav {
+        flex-direction: column;
+    }
 
     .lang-link {
-        padding: 4px 8px;
-        font-size: 0.9rem;
+        order: -1;
+        margin-bottom: 10px;
     }
+
 }
 
 /* Add styles for diplomas section */
@@ -187,16 +197,6 @@ footer {
     margin-bottom: 30px;
 }
 
-
-.lang-link {
-    text-decoration: none;
-    color: #FFF;
-    border: 1px solid #ffffff;
-    border-radius: 5px;
-    padding: 5px 10px;
-    transition: all 0.3s ease;
-    background-color: rgba(0, 0, 0, 0.7);
-}
 
 .lang-link:hover {
     background-color: #4b6584;
