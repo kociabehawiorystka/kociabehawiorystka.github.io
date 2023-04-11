@@ -23,12 +23,18 @@ header h1 {
     margin: 0;
 }
 
+.nav-links-container {
+    display: flex;
+    justify-content: center;
+}
+
 nav {
     display: flex;
     justify-content: center;
     background-color: rgba(0, 0, 0, 0.7);
     padding: 10px 0;
 }
+
 
 nav a {
     color: #ffffff;
@@ -177,9 +183,7 @@ footer {
     header h1 {
         font-size: 2rem;
     }
-nav {
-        flex-direction: column;
-    }
+
 
     .lang-link {
         order: -1;
