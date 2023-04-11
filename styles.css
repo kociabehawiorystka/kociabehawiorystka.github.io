@@ -70,7 +70,7 @@ p {
 
 .service-card {
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
-    border-radius:200px;
+    border-radius:40px;
     padding: 20px;
     text-align: center;
     transition: all 0.3s ease;
